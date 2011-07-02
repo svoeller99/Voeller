@@ -11,8 +11,26 @@ git commit -m "some comment"
 git remote add origin git@github.com:svoeller99/someRepo.git
 git push -u origin master
 
-# get status of repo
+# get status of local vs. repo (delta)
 git status
 
+# add any newly created files
+git add .
+
+# only add new stuff under 'app' folder
+git add app/
+
+# commit changes to local repo
+git commit -m "some comment"
+
+# push local commits to remote (github)
+git push
+
 # deploy using engineyard gem
+ey deploy
+
+# typical dev cycle stuff
+git add .
+git commit -m "some comment"
+git push
 ey deploy
