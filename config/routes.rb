@@ -1,4 +1,4 @@
-Ridemo::Application.routes.draw do
+VoellerStuff::Application.routes.draw do
   get "welcome/index"
 
   # The priority is based upon order of creation:
