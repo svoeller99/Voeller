@@ -34,3 +34,7 @@ git add .
 git commit -m "some comment"
 git push
 ey deploy
+
+# open rails console
+cd myproj
+rails console
